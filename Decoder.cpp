@@ -27,10 +27,8 @@ int decoder(string path,string wrong)
 	char line;
 	while (file.get(line) && i < QUANTITY_LETTER)
 	{
-		if (isalpha(line)) {
 			Letter[i] = line;
 			i++;
-		}
 	}
 	map<char, char> replace;
 	for (size_t i = 0; i < QUANTITY_LETTER; i++)
