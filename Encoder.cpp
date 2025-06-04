@@ -38,12 +38,13 @@ int encode(string input)
 		}
 	}
 
+
 	ofstream file("Letters.txt");
 	if (file.is_open())
 	{
 		for (size_t i = 0; i < QUANTITY_LETTERS ; i++)
 		{
-			file << Letters2[i] << endl;
+			file << Letters2[i];
 		}
 	}
 	file.close();
