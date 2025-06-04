@@ -44,5 +44,6 @@ int decoder(string path,string wrong)
 			cout << ch;
 		}
 	}
+	file.close();
 	return 0;
 }
